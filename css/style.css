@@ -94,7 +94,7 @@ ul {
 }
 
 .section-title h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: var(--text-black-900);
     font-weight: 700;
     position: relative;
@@ -172,10 +172,10 @@ ul {
     position: absolute;
     width: 20px;
     height: 20px;
-    border-bottom: 5px solid var(--skin-color2);
-    border-left: 5px solid var(--skin-color2);
-    bottom: 0;
-    left: 0;
+    border-bottom: 5px solid wheat;
+    border-left: 5px solid ;
+    bottom: -10px;
+    left: -5px;
 }
 
 .aside .logo a::after {
@@ -183,8 +183,8 @@ ul {
     position: absolute;
     width: 20px;
     height: 20px;
-    border-top: 5px solid var(--skin-color);
-    border-right: 5px solid var(--skin-color);
+    border-top: 5px solid ;
+    border-right: 5px solid ;
     top: 0;
     right: 0;
 }
@@ -254,7 +254,9 @@ ul {
 }
 
 .aside .nav li a.active {
-    color: var(--skin-color);
+    color: #010102;
+    background-color: #7f7d97;
+    border-radius: 20px;
 }
 
 .aside .nav li a i {
@@ -370,6 +372,12 @@ h3.my-profecion {
     font-style: normal;
     color: var(--skin-color);
 }
+/**/
+
+.about-text .personal {
+    margin-top: 35px;
+    font-size: 30px;
+}
 
 /* ----- counters ----- */
 .art-card {
@@ -409,11 +417,11 @@ h3.my-profecion {
     position: absolute;
     height: 90px;
     width: 120px;
-    right: -120px;
+    right: -10px;
     border-bottom: 10px solid var(--skin-color2);
     border-right: 10px solid var(--skin-color2);
-    right: 20px;
-    bottom: -10px;
+    right: 2px;
+    bottom: 3px;
 
 }
 
@@ -424,7 +432,7 @@ h3.my-profecion {
     width: 190px;
     border-top: 10px solid var(--skin-color2);
     border-left: 10px solid var(--skin-color2);
-    left: 40px;
+    left: 0px;
     top: 20px;
 }
 
@@ -653,7 +661,7 @@ h3.my-profecion {
 }
 
 .service .service-item .service-item-inner:hover {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.25);
+    box-shadow:  20px 20px 20px rgba(0, 0, 0, 0.91);
 }
 
 .service .service-item .service-item-inner .icon {
@@ -666,33 +674,19 @@ h3.my-profecion {
     transition: all 0.5s ease;
 }
 
-.service .service-item .service-item-inner .icon .fa {
-    font-size: 40px;
-    line-height: 60px;
-    color: var(--skin-color);
-    transition: all 0.5s ease;
-}
-
-.service .service-item .service-item-inner:hover .icon {
-    background-color: var(--skin-color);
-}
-
-.service .service-item .service-item-inner:hover .icon .fa {
-    font-size: 25px;
-    color: #fff;
-}
 
 .service .service-item .service-item-inner h4 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 15px;
-    color: var(--text-black-900);
+    color: #fff;
     font-weight: 700;
     text-transform: capitalize;
+   
 }
 
 .service .service-item .service-item-inner p {
-    font-size: 16px;
-    color: var(--text-black-700);
+    font-size: 25px;
+    color: #fff;
     line-height: 25px;
 }
 
@@ -934,7 +928,7 @@ button
     -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
     color: #f8f8ff;
-    background: var(--skin-color);
+    background: var(--skin-color2);
     letter-spacing: 1.5px;
     border-radius: 22px;
     font-weight: 600;
@@ -971,9 +965,10 @@ button
 }
 
 .art-btn:hover {
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-    color: #1e1e28;
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-5px);
+    color: #090909;
+    background-color: #d11e51;
 }
 
 /* ------------------------------
