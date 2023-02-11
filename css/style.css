@@ -640,42 +640,49 @@ h3.my-profecion {
     text-align: justify;
 }
 
-/*Servicios*/
-.service .container {
+/*Clases*/
+.Clases .container {
     padding-bottom: 40px;
 }
 
-.service .service-item {
+.Clases .Clases-item {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
 
-.service .service-item .service-item-inner {
+.Clases .Clases-item .Clases-item-inner {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
+    height: 24em;
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner:hover {
+.Clases .Clases-item .Clases-item-inner:hover {
     box-shadow:  20px 20px 20px rgba(0, 0, 0, 0.91);
 }
 
-.service .service-item .service-item-inner .icon {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+.Clases .Clases-item .Clases-item-inner .icon {
+    padding: auto;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.Clases .Clases-item .Clases-item-inner .icon img{
+    height: 150px;
+    width: 180px;
+    
     display: block;
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.5s ease;
 }
 
-
-.service .service-item .service-item-inner h4 {
+.Clases .Clases-item .Clases-item-inner h4 {
     font-size: 22px;
     margin-bottom: 15px;
     color: #fff;
@@ -684,10 +691,17 @@ h3.my-profecion {
    
 }
 
-.service .service-item .service-item-inner p {
+.Clases .Clases-item .Clases-item-inner p {
     font-size: 25px;
     color: #fff;
     line-height: 25px;
+}
+
+.Clases .Clases-item .Clases-item-inner a{
+    color: white;
+    
+    margin-top: 43em;
+    font-size: 25px;
 }
 
 /*Portafolio*/
@@ -1066,7 +1080,7 @@ space
 @media (max-width:991px) {
 
     .contact .contact-info-item,
-    .service .service-item {
+    .Clases .Clases-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -1099,7 +1113,7 @@ space
 
     .contact .contact-info-item .col-6,
     .contact .contact-info-item,
-    .service .service-item,
+    .Clases .Clases-item,
     .about .sobre-content .experiencia,
     .about .sobre-content .educacion,
     .about .sobre-content .skills,
