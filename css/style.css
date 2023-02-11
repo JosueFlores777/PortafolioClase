@@ -655,7 +655,8 @@ h3.my-profecion {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
-    height: 24em;
+    cursor: pointer;
+    height: 26em;
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
@@ -703,6 +704,8 @@ h3.my-profecion {
     margin-top: 43em;
     font-size: 25px;
 }
+
+
 
 /*Portafolio*/
 
@@ -1064,9 +1067,10 @@ space
 
 @media (max-width:1199px) {
     .aside {
+        min-height: 50vh;
         left: -270px;
     }
-
+   
     .main-content {
         padding-left: 0;
     }
