@@ -762,11 +762,12 @@ h3.my-profecion {
     
 }
 
-
+.art-grid .art-grid-item:hover {
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.91);
+}
 
 .art-grid .art-grid-item {
     float: left;
-
     display: flex;
     margin-bottom: 50px;
     overflow: hidden;
