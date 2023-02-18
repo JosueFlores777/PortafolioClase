@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #e8dfec;
     transform: translateZ(60px);
 }
 
@@ -90,7 +90,7 @@
     font-size: 16px;
     cursor: pointer;
     border: none;
-    color: white;
+    color: e8dfec;
     background: #408ac8;
     box-shadow: 1px 1px 30px -5px #3879ae;
     border-radius: 10px;

@@ -1,15 +1,16 @@
 :root {
-    --bg-black-900: #f2f2fc;
+    --bg-black-900: #e8dfec;
     --bg-black-100: #7c092a;
     --bg-black-50: #e8dfec;
     --text-black-900: #ebebf5;
     --text-black-700: #504e70;
-    --skin-color: #e8e1e2;
+    --skin-color: #e8dfec;
 }
 
 /* ===== GENERAL ===== */
 
 html {
+    background-color: #f9f4fc;
     margin-top: -5em;
     font-size: 16px;
     font-family: 'Varela Round', sans-serif;
@@ -202,7 +203,7 @@ ul {
     margin-bottom: 125px;
     max-width: 100rem;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f7f3f3;
     box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
     align-items: center;
     border-radius: 2rem;
