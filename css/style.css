@@ -100,6 +100,14 @@ ul {
     position: relative;
 }
 
+.section-title1 h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+}
+
 .section-title h2::before {
     content: '';
     height: 4px;
@@ -642,6 +650,8 @@ h3.my-profecion {
 }
 
 /*Clases*/
+
+
 .Clases .container,
 .practicas {
     padding-bottom: 40px;
@@ -652,13 +662,41 @@ h3.my-profecion {
     flex: 0 0 33.33%;
     max-width: 33.33%;
 }
+.Clases1 .Clases-item1 .Clases-item-inner1 {
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 15em;
+    width: 25em;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Clases1 .Clases-item1 .Clases-item-inner1 p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.Clases1 .Clases-item1 .Clases-item-inner1 a {
+    color: white;
+    margin-top: 43em;
+    font-size: 20px;
+}
+
+.Clases1 .Clases-item1 .Clases-item-inner1:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.91);
+}
+
 
 .Clases .Clases-item .Clases-item-inner {
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     border-radius: 10px;
     cursor: pointer;
-    height: 26em;
+    height: 25em;
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
