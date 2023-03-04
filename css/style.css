@@ -671,9 +671,12 @@ h3.my-profecion {
     height: 15em;
     width: 25em;
     padding: 30px 15px;
+    margin-bottom: 39px;
     text-align: center;
     transition: all 0.3s ease;
 }
+
+
 
 .Clases1 .Clases-item1 .Clases-item-inner1 p {
     font-size: 20px;
