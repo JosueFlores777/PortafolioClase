@@ -793,19 +793,21 @@ h3.my-profecion {
 .art-grid {
     margin-top: 125px;
     display: flex;
+
     flex-wrap: wrap;
 }
 
 .art-grid img {
+
     width: 525px;
     flex: 0 0 100%;
     max-width: 100%;
     border-radius: 12px  45px 0 0;
-    
+   
 }
 
 .art-grid .art-grid-item:hover {
-    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.91);
+    box-shadow: 10px 10px 20px 10px rgba(110, 7, 7, 0.606);
 }
 
 .art-grid .art-grid-item {
@@ -819,6 +821,7 @@ h3.my-profecion {
     overflow: hidden;
     cursor: pointer;
     padding: 0 15px;
+ 
 }
 
 .art-grid .art-grid-item .art-item-description {
@@ -836,6 +839,7 @@ h3.my-profecion {
     transform: translateY(100%);
     -webkit-transition: 0.55s ease-in-out;
     transition: 0.55s ease-in-out;
+   
 }
 
 .art-grid .art-grid-item:hover .art-item-description {
